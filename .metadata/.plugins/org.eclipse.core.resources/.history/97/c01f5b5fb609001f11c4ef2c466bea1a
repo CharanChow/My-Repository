@@ -1,0 +1,11 @@
+package javaPrograms;
+
+public class Practice {
+
+	public static void main(String[] args) {
+	String s = "selenium";
+	StringBuilder str = new StringBuilder(s);
+	System.out.println(str.reverse());
+	
+	}
+}

@@ -1,0 +1,28 @@
+package javaPrograms;
+
+public class PrintnumwithoutLoop {
+
+	public static void main(String[] args) {
+		printnum(1,199);
+		
+	
+
+	}
+	public static void printnum(int num) {
+		if(num<=100) {
+			System.out.println(num);
+			num++;
+			printnum(num);
+		}
+		
+	}
+	public static void printnum(int num,int e) {
+		if(num<=e) {
+			System.out.println(num);
+			num++;
+			printnum(num, e);
+		}
+		
+	}
+
+}

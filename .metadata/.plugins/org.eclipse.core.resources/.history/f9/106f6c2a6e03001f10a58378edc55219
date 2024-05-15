@@ -1,0 +1,18 @@
+package javaPrograms;
+
+public class JavaclassA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	
+	}
+	public class java{
+		void main(String[] args) {
+			System.out.println("Class inside a class");
+		}
+	}
+
+}
+

@@ -1,0 +1,23 @@
+package javaPrograms;
+
+
+
+public class Practice {
+
+	public static void main(String[] args) {
+	int a[]= {12,34,25,64,87,-1};
+	int bg=a[0];
+	int sm = a[0];
+	for(int i =0; i<a.length;i++) {
+		if(i>a[0]) {
+			bg = a[i];
+		}
+		if (i<a[0]) {
+			sm = a[i];
+		}
+	}
+	System.out.println("the biggest number in given array "+bg );
+	System.out.println("the smallest number in given array "+sm);
+	
+		}
+}

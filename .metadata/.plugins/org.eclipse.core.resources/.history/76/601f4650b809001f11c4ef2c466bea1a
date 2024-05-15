@@ -1,0 +1,27 @@
+package javaPrograms;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		isArmstrong(153);
+		isArmstrong(222);
+		
+	
+	}
+	public static void isArmstrong(int num) {
+		int r=0;
+		int sum =0;
+		int t=num;
+		while(num>0) {
+			r=num%10;
+			sum=sum+(r*r*r);
+			num = num/10;
+		}
+		if(sum == t) {
+			System.out.println("The given num is armstrong");
+		}
+		else {
+			System.out.println("the given number is not armstrong");
+		}
+	}
+}

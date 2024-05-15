@@ -1,0 +1,10 @@
+package automation.charan.Learn.charan;
+
+public class frameHandle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

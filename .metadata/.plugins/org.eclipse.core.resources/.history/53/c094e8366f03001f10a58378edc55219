@@ -1,0 +1,11 @@
+package javaPrograms;
+
+public class AddingTwoInt {
+public static void main(String[] args) {
+	
+	StringBuffer b = new StringBuffer("selinum");
+	System.out.println(b.reverse());
+}
+	
+
+}

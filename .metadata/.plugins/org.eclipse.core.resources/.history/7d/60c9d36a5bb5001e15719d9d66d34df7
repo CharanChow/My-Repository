@@ -1,0 +1,33 @@
+package stepDefinations;
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Then;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObjects.AfterLoginPage;
+import utils.TestContexSetup;
+
+
+public class AfterLogin {
+	TestContexSetup testContexSetup;
+	
+	public AfterLogin(TestContexSetup testContexSetup) {
+		this.testContexSetup=testContexSetup;
+	}
+@Then("User should login")
+	public void user_should_login() {
+		AfterLoginPage ab = new AfterLoginPage(testContexSetup.driver);
+		ab.test();
+		ab.title();
+
+			}
+		
+		}
+	
+
+		
+	
+

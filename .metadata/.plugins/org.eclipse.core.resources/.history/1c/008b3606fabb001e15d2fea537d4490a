@@ -1,0 +1,18 @@
+package testJava;
+
+public class PracticeJava {
+	public static void main(String[] args) {
+		PracticeJava obj = new PracticeJava();
+		
+		
+		
+		
+		
+	}
+
+		PracticeJava(){
+			System.out.println("inside constructer");
+		}
+	
+
+}

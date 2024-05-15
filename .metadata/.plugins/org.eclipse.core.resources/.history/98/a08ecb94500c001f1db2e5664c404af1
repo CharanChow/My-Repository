@@ -1,0 +1,24 @@
+package javaPrograms;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class HashMapIterator {
+
+	public static void main(String[] args) {
+		HashMap<String,String>C = new HashMap<String,String>();
+		C.put("Charan", "Kumar");
+		C.put("Mounika", "Simhadri");
+		
+		Iterator<String> name = C.keySet().iterator();
+		while(name.hasNext()) {
+			String FN = name.next();
+			String LN = C.get(FN);
+			System.out.println("Values of valu is  "+LN);
+			System.out.println("Key Value is  "+FN);
+		}
+	}
+	
+
+}

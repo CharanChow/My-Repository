@@ -1,0 +1,36 @@
+package javaPrograms;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Practice {
+
+	public static void main(String[] args) {
+	String str = "mom";
+	isPallandrom(str);
+	
+	}
+	public static void isPallandrom(String str) {
+		String rev="";
+		String t=str;
+		for(int i=str.length()-1;i>=0;i--) {
+			rev=rev+str.charAt(i);
+		}
+		if(t==rev) {
+			System.out.println(rev + " is a pallandrom");
+		}
+		else {
+			System.out.println(rev + " is not a pallandrom");
+		}
+	}
+		}
+

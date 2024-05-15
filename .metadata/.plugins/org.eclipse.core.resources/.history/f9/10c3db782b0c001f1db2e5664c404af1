@@ -1,0 +1,24 @@
+package javaPrograms;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class HashMapIterator {
+
+	public static void main(String[] args) {
+		HashMap<String,String>C = new HashMap<String,String>();
+		C.put("india", "IND");
+		C.put("America", "USA");
+		C.put("Canada", "CND");
+		C.put("Swizerland", "SWZ");
+		Iterator<String>it = C.keySet().iterator();
+		while(it.hasNext()) {
+			String keys=it.next();
+			String value = C.get(keys);
+			System.out.println(keys+" and "+value);
+		}
+	}
+	
+
+}

@@ -1,0 +1,42 @@
+package automation.charan.Learn.charan;
+
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.stream.Stream;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class App {
+	public static void main(String args[]) {
+		
+String name = "charanChowdary";
+String rev = null;
+for(int i=name.length()-1;i>=0;i--) {
+	rev=rev + name.charAt(i);
+	
+}
+
+	System.out.println(rev);
+	}
+}
+
+
+	
+
+
+
+	
+
+

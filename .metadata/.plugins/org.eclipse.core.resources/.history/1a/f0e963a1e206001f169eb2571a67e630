@@ -1,0 +1,35 @@
+package automation.charan.Learn.charan;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class windowHandle {
+
+	public static void main(String[] args) {
+		WebDriver driver;
+		driver = new FirefoxDriver();
+		driver.get("https://www.amazon.in/");
+		Actions a = new Actions(driver);
+		WebElement searchbox = driver.findElement(By.id("twotabsearchtextbox"));
+		WebElement search = driver.findElement(By.xpath("//input[@type='submit']"));
+		a.moveToElement(searchbox).click().keyDown(Keys.SHIFT).sendKeys("grit").build().perform();
+		a.moveToElement(search).click().build().perform();
+		driver.findElement(By.xpath("//span[contains(text(),'American Grit - Is It in You?')]")).click();
+		Set<String>Windows = driver.getWindowHandles();
+		Iterator<String>IT =Windows.iterator();
+		String parentID = IT.next();
+		String ChildID = IT.next();
+		driver.switchTo().window(ChildID);
+		System.out.println(driver.getTitle());
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package javaPrograms;
+
+public class TreeMap {
+
+	public static void main(String[] args) {
+		TreeMap<Integer,String> TM = new TreeMap<>();
+		TM.put
+		
+		
+
+	}
+
+}

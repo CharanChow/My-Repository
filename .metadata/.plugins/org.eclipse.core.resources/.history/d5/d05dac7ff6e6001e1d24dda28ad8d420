@@ -1,0 +1,52 @@
+package automation.charan.Learn.charan;
+
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.stream.Stream;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class App {
+	public static void main(String args[]) {
+		duplicateWords("Java is Java but python is aslo java and java but not Java");
+	
+	}
+	public static void duplicateWords(String name) {
+		String words[]=name.split(" ");
+		Map<String,Integer>wordCount = new HashMap<String,Integer>();
+		for(String word: words) {
+			if(wordCount.containsKey(word)) {
+				wordCount.put(word.toLowerCase(), wordCount.get(word)+1);
+			}
+			else {
+				wordCount.put(word, 1);
+			}
+		}
+		Set<String> wordsInString = wordCount.keySet();
+		for(String word : wordsInString) {
+			if(wordCount.get(word)>1)
+			System.out.println(word+":"+wordCount.get(word));
+			
+		}
+	}
+}
+
+	
+
+
+
+	
+
+

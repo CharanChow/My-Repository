@@ -1,0 +1,26 @@
+package javaPrograms;
+
+import java.util.HashMap;
+
+public class ComparingTwoHashMaps {
+
+	public static void main(String[] args) {
+	HashMap<Integer,String>Map1 = new HashMap<Integer,String>();
+	Map1.put(1,"Chow");
+	Map1.put(2, "Charan");
+	Map1.put(3, "kumar");
+	HashMap<Integer,String>Map2 = new HashMap<Integer,String>();
+	Map2.put(2, "Charan");
+	Map2.put(1, "Chow");
+	Map2.put(3, "kumar");
+	HashMap<Integer,String>Map3 = new HashMap<Integer,String>();
+	Map3.put(1, "chow");
+	Map3.put(2, "Charan");
+	Map3.put(3, "Kumar");
+	
+	System.out.println(Map1.equals(Map2));
+	System.out.println(Map1.equals(Map3));
+
+	}
+
+}

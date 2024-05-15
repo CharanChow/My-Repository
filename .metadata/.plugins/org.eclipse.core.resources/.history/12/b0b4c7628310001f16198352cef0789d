@@ -1,0 +1,23 @@
+package javaPrograms;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Test {
+
+	public static void main(String[] args) {
+	String s = "Charan";
+	char[] c = s.toCharArray();
+	Set<Character>ch = new HashSet<>();
+	for(int i=0;i<c.length;i++) {
+		if(!ch.contains(c[i])) {
+			ch.add(c[i]);
+			
+		}
+	}
+	System.out.println(ch);
+			
+		}
+	}
+
+

@@ -1,0 +1,21 @@
+package javaPrograms;
+
+public class FebannachiSeries {
+
+	public static void main(String[] args) {
+	int k=0;
+	int i=1;
+	int j=1;
+	System.out.print("1 1");
+	while(k<100) {
+		k=i+j;
+		System.out.print(k+" ");
+		i=j;
+		j=k;
+		
+		
+	}
+
+	}
+
+}

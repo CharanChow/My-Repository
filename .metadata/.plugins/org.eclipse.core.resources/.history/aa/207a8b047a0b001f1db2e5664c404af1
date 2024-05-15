@@ -1,0 +1,18 @@
+package javaPrograms;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class Practice {
+
+	public static void main(String[] args) {
+	
+	ArrayList<String> Ar = new ArrayList<String>(Arrays.asList("charan","Kumar","work"));
+	Object obj[]=Ar.toArray();
+	System.out.println(Arrays.toString(obj));
+	
+	
+	
+		}
+}

@@ -1,0 +1,17 @@
+package javaPrograms;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ComparingArrayList {
+
+	public static void main(String[] args) {
+	ArrayList<Integer> L1 = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6));
+	ArrayList<Integer> L2 = new ArrayList<Integer>(Arrays.asList(2,3,1,4,5,6));
+	System.out.println(L1.equals(L2));
+	
+	
+
+	}
+
+}

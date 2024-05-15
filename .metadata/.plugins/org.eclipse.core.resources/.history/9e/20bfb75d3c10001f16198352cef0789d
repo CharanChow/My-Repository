@@ -1,0 +1,35 @@
+package javaPrograms;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		isfibanacci(66);
+	
+	}
+	public static void isfibanacci(int num) {
+		int i=1;
+		int j=1;
+		int k=0;
+		System.out.print("1 1 ");
+		while(k<num) {
+			k=i+j;
+			System.out.print(k+" ");
+			i=j;
+			j=k;
+			
+		}
+	}
+		}
+

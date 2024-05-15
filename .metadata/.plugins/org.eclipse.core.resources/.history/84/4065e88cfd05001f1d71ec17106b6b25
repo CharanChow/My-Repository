@@ -1,0 +1,18 @@
+package javaPrograms;
+
+public class Practice {
+
+	public static void main(String[] args) {
+
+		
+	Integer a = 100;
+	Integer b = 100;
+	if (a == b) {
+		System.out.println("the num are equal");
+	}
+	else {
+		System.out.println("the num are not equal");
+	}
+	}
+
+}

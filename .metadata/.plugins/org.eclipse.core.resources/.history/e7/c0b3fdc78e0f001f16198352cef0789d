@@ -1,0 +1,32 @@
+package javaPrograms;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Practice {
+
+	public static void main(String[] args) {
+	int a[] = {1,12,42,43,5,6,66,78};
+	int Lr=a[0];
+	int Sm=a[0];
+	for(int i=0;i<a.length;i++) {
+		if(Lr<a[i]) {
+			Lr=a[i];
+		}
+		if(Sm>a[i]) {
+			Sm=a[i];
+			
+		}
+	}
+	System.out.println("The largest number in given list is "+Lr);
+	System.out.println("Smallest number in given list is "+Sm);
+	
+	}
+		}
+

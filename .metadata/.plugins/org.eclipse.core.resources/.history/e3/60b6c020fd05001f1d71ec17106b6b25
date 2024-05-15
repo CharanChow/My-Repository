@@ -1,0 +1,11 @@
+package javaPrograms;
+
+public class Practice {
+
+	public static void main(String[] args) {
+	if (System.out.printf("Hello world")==null) {
+		
+	}
+	}
+
+}
