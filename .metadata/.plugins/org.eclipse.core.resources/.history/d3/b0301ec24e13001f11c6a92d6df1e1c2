@@ -1,0 +1,30 @@
+package javaPrograms;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Practice {
+
+	public static void main(String[] args) {
+	int a[]= {10,0,0,20,40,50,60};
+	for(int i=0;i<a.length;i++) {
+		if(a[i]<a[i+1]) {
+			a[i]=a[i+1];
+		}
+		
+		
+	}
+	System.out.println(a);
+	}
+	
+		}
+

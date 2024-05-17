@@ -15,27 +15,19 @@ import java.util.Set;
 public class Practice {
 
 	public static void main(String[] args) {
-	Scanner sc = new Scanner(System.in);
-	System.out.println("Please enter a value");
-	int num = sc.nextInt();
 	
-		for(int i=2;i<num;i++) {
-			if(num%i==0) {
-				System.out.println(num+" is not a prime number");
-				System.exit(0);
+	int a[]= {1,10,20,2,90,40,1099,-95,34758};
+	int max=0;
+	for(int i=0;i<a.length;i++) {
+		for(int j=i+1;j<a.length;j++) {
+			int z=a[j]-a[i];
+			if(z>max) {
+				max=z;
 			}
-			
 		}
-
-		if(num<2) {
-			System.out.println("it is not a prime number");
-			
-		}
-		
-	
-		else{
-		System.out.println(num+" is a prime number");
 	}
+	System.out.println(max +" is the maximum difference");
+	
 	}
 	
 		}

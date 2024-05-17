@@ -5593,3 +5593,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact automation:ui
 2024-05-15 00:03:30,943 [Worker-33: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ui.charan: automation:ui.charan:0.0.1-SNAPSHOT with classifier  to /ui.charan/target/classes
 2024-05-15 00:03:31,557 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Workspace\Learn.charan\src\main\resources
 2024-05-15 00:03:31,562 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Workspace\Learn.charan\src\test\resources
+2024-05-17 11:24:15,845 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

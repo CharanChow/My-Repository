@@ -3338,3 +3338,80 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-05-15 00:03:28.747
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2024-05-15 19:59:53.048
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\538\0\.cp\lib\testng-remote.jar C:\eclipse\plugins\junit-jupiter-api_5.10.1.jar C:\eclipse\plugins\junit-jupiter-engine_5.10.1.jar C:\eclipse\plugins\junit-jupiter-migrationsupport_5.10.1.jar C:\eclipse\plugins\junit-jupiter-params_5.10.1.jar C:\eclipse\plugins\junit-platform-commons_1.10.1.jar C:\eclipse\plugins\junit-platform-engine_1.10.1.jar C:\eclipse\plugins\junit-platform-launcher_1.10.1.jar C:\eclipse\plugins\junit-platform-runner_1.10.1.jar C:\eclipse\plugins\junit-platform-suite-api_1.10.1.jar C:\eclipse\plugins\junit-platform-suite-engine_1.10.1.jar C:\eclipse\plugins\junit-platform-suite-commons_1.10.1.jar C:\eclipse\plugins\junit-vintage-engine_5.10.1.jar C:\eclipse\plugins\org.opentest4j_1.3.0.jar C:\eclipse\plugins\org.apiguardian.api_1.1.2.jar C:\eclipse\plugins\org.junit_4.13.2.v20230809-1000.jar C:\eclipse\plugins\org.hamcrest_2.2.0.jar C:\eclipse\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar C:\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar C:\eclipse\plugins\org.webjars.jquery_3.5.1.jar
+  VMArgs:    --add-opens TestTestNG/Test=ALL-UNNAMED -ea -javaagent:C:\eclipse\configuration\org.eclipse.osgi\484\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=65356 --add-modules=ALL-MODULE-PATH
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65357 -protocol json -d C:\Workspace\TestTestNG\test-output C:\Users\schar\AppData\Local\Temp\testng-eclipse-272193211\testng-customsuite.xml
+java --add-opens TestTestNG/Test=ALL-UNNAMED -ea -javaagent:C:\eclipse\configuration\org.eclipse.osgi\484\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=65356 --add-modules=ALL-MODULE-PATH -classpath C:\eclipse\configuration\org.eclipse.osgi\538\0\.cp\lib\testng-remote.jar:C:\eclipse\plugins\junit-jupiter-api_5.10.1.jar:C:\eclipse\plugins\junit-jupiter-engine_5.10.1.jar:C:\eclipse\plugins\junit-jupiter-migrationsupport_5.10.1.jar:C:\eclipse\plugins\junit-jupiter-params_5.10.1.jar:C:\eclipse\plugins\junit-platform-commons_1.10.1.jar:C:\eclipse\plugins\junit-platform-engine_1.10.1.jar:C:\eclipse\plugins\junit-platform-launcher_1.10.1.jar:C:\eclipse\plugins\junit-platform-runner_1.10.1.jar:C:\eclipse\plugins\junit-platform-suite-api_1.10.1.jar:C:\eclipse\plugins\junit-platform-suite-engine_1.10.1.jar:C:\eclipse\plugins\junit-platform-suite-commons_1.10.1.jar:C:\eclipse\plugins\junit-vintage-engine_5.10.1.jar:C:\eclipse\plugins\org.opentest4j_1.3.0.jar:C:\eclipse\plugins\org.apiguardian.api_1.1.2.jar:C:\eclipse\plugins\org.junit_4.13.2.v20230809-1000.jar:C:\eclipse\plugins\org.hamcrest_2.2.0.jar:C:\eclipse\plugins\org.hamcrest.core_2.2.0.v20230809-1000.jar:C:\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\eclipse\plugins\org.webjars.jquery_3.5.1.jar org.testng.remote.RemoteTestNG -serport 65357 -protocol json -d C:\Workspace\TestTestNG\test-output C:\Users\schar\AppData\Local\Temp\testng-eclipse-272193211\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-05-15 20:08:52.066
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\538\0\.cp\lib\testng-remote.jar C:\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar C:\eclipse\plugins\org.webjars.jquery_3.5.1.jar
+  VMArgs:    --add-opens Testng/=ALL-UNNAMED -ea -javaagent:C:\eclipse\configuration\org.eclipse.osgi\484\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=65380 --add-modules=ALL-MODULE-PATH
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65381 -protocol json -d C:\Workspace\Testng\test-output C:\Users\schar\AppData\Local\Temp\testng-eclipse-1649588817\testng-customsuite.xml
+java --add-opens Testng/=ALL-UNNAMED -ea -javaagent:C:\eclipse\configuration\org.eclipse.osgi\484\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=65380 --add-modules=ALL-MODULE-PATH -classpath C:\eclipse\configuration\org.eclipse.osgi\538\0\.cp\lib\testng-remote.jar:C:\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\eclipse\plugins\org.webjars.jquery_3.5.1.jar org.testng.remote.RemoteTestNG -serport 65381 -protocol json -d C:\Workspace\Testng\test-output C:\Users\schar\AppData\Local\Temp\testng-eclipse-1649588817\testng-customsuite.xml
+
+!ENTRY org.eclipse.eclemma.core 4 5013 2024-05-15 20:08:52.299
+!MESSAGE Error while dumping coverage data (code 5013).
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:694)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:767)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:675)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:641)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:617)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:574)
+	at java.base/java.net.ServerSocket.accept(ServerSocket.java:532)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.testng.eclipse 1 0 2024-05-15 20:09:01.422
+!MESSAGE Stop the socket server as it's still pending on accepting the client
+!SESSION 2024-05-17 11:23:34.762 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-17 11:24:00.637
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-17 11:24:01.896
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-17 11:24:02.935
+!MESSAGE Logback config file: C:\Workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-05-17 11:24:07.086
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-17 11:24:07.086
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-17 11:24:15.879
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\schar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
